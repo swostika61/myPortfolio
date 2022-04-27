@@ -5,12 +5,13 @@ module.exports = {
       primary: "#2d2d2d",
       secondary: "#8d2663",
       tertiary: "#ababab",
-      black: "#000000",
+      black: "#0C0A0C",
       white: "#ffffff",
     },
     fontFamily: {
-      header: ['Water Brush', 'cursive'],
-      sans: ['Cairo', "sans-serif"]
+      header: ["Water Brush", "cursive"],
+      sans: ["Cairo", "sans-serif"],
+      footer: ["Quicksand", "sans-serif"],
     },
     extend: {},
   },
