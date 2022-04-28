@@ -3,18 +3,18 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Project from "./pages/Project";
 
 function App() {
   return (
     <>
-      <div  style={{ minHeight: `calc(100vh - 44px)` }} className="bg-black">
         <Navigation />
+      <div  style={{ minHeight: `calc(100vh - 44px)` }} className="bg-black">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Project />} />
         </Routes>
       </div>
       <Footer />
