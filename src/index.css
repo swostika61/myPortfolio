@@ -1,6 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* nav links  */
+.nav-links {
+  display: inline-block;
+  position: relative;
+}
+.nav-links:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  margin: -5px 0;
+  right: 0;
+  background-color: #8d2663;
+  transition: all 0.4s ease-in 0s;
+}
+.nav-links:hover:after {
+  width: 100%;
+}
+
+
+.nav-active {
+    display: inline-block;
+    position: relative;
+  }
+  .nav-active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    height: 2px;
+    margin: -5px 0;
+    right: 0;
+    background-color: #8d2663;
+  }
+  .nav-active:after {
+    width: 100%;
+  }
+
+/* heading software developer  */
+  .bounce span span {
+    position: relative;
+    animation: move-text 0.75s forwards;
+    bottom: -1em;
+    opacity: 0;
+  }
+  
+  @keyframes move-text {
+    0% {
+      bottom: -0.2em;
+      opacity: 1;
+    }
+    
+    50% {
+      bottom: 0.2em;
+    }
+  
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
