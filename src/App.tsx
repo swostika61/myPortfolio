@@ -13,7 +13,7 @@ function App() {
       <div  style={{ minHeight: `calc(100vh - 44px)` }} className="bg-black">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Project />} />
         </Routes>
       </div>
