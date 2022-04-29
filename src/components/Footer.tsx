@@ -9,7 +9,7 @@ const Footer = () => {
         <p>Developed by Swostika</p>
       </div>
       <div className="flex items-center">
-        <Link to="https://github.com/swostika61" target="_blank">
+        <Link to={{pathname:"https://github.com/swostika61"}} target="_blank">
           <i className="fa-brands fa-github"></i>
         </Link>
       </div>
