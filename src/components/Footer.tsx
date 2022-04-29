@@ -18,7 +18,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/swostikalamichhane/"
           target="_blank"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin icon"></i>
         </a>
       </div>
     </div>
