@@ -11,12 +11,16 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center">
+<<<<<<< HEAD
         <Link
           to={{ pathname: "https://github.com/swostika61" }}
           target="_blank"
         >
+=======
+        <a href="https://github.com/swostika61" target="_blank">
+>>>>>>> feature-components
           <i className="fa-brands fa-github"></i>
-        </Link>
+        </a>
       </div>
     </div>
   );
