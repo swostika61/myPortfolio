@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className="flex items-center">
         <a href="https://github.com/swostika61" target="_blank">
-          <i className="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github icon"></i>
         </a>
       </div>
     </div>
