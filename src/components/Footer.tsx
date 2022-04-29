@@ -14,6 +14,12 @@ const Footer = () => {
         <a href="https://github.com/swostika61" target="_blank">
           <i className="fa-brands fa-github icon"></i>
         </a>
+        <a
+          href="https://www.linkedin.com/in/swostikalamichhane/"
+          target="_blank"
+        >
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
       </div>
     </div>
   );
