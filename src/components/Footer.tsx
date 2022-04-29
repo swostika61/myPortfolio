@@ -3,12 +3,19 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <div className="bg-primary min-h-11 flex justify-between items-center text-sm px-5 py-3 text-tertiary font-footer ">
       <div className="flex flex-column justify-center">
         <div className="flex flex-col">
           <p>&copy; Swostika Lamichhane. All Rights Reserved.</p>
           <p>Developed by Swostika</p>
         </div>
+=======
+    <div className="bg-primary min-h-11 flex flex-col justify-between items-center text-sm px-5 py-3 text-tertiary font-footer sm:flex-row">
+      <div className="flex flex-col">
+        <p>&copy; Swostika Lamichhane. All Rights Reserved.</p>
+        <p>Developed by Swostika</p>
+>>>>>>> feature-components
       </div>
       <div className="flex items-center">
         <a href="https://github.com/swostika61" target="_blank">
